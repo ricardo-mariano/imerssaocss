@@ -1,0 +1,40 @@
+body {
+    background-image: url(https://subtlepatterns.com/patterns/mochaGrunge.png);
+    background-size: auto 100vh;
+    color: #333;
+    font-family: Arial;
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: whitesmoke;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    color: whitesmoke;
+    text-align: center;  
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
+  
