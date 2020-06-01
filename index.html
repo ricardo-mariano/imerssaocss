@@ -5,40 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ricardo Mariano</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bellota+Text:wght@700&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c694b4cd88.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
         <nav class="menu">
-          <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Contato</a></li>
+          <ul class="container">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
         </nav>
-        <div>
+        <div class="titulo">
           <h1 class="site-title">Ricardo Mariano</h1>
-          <h2 class="site-subtitle">jr. frontend developer</h2>
+          <h2 class="site-subtitle">designer gráfico | front-end student</h2>
+          <h2 class="site-subtitle">...</h2>          
         </div>
           
     </header>
-    <section>
+    <section class="sobre container" id="sobre">
+      <h2>Sobre</h2>
+
+      <figure>
+        <img class="img-perfil" src="./img/ricardo.jpg" alt="Ricardo Mariano">
+      </figure>
+
+     <p> 
+       Me chamo Ricardo Fernandes Mariano, sou tecnólogo em Sistemas para Internet pela Universidade Nove de Julho e técnico em Design Gráfico pela ETEC de Carapicuíba.     
+     </p>
+
+      <p>
+        Sempre trabalhei com design gráfico e devido a essa crise do corona vírus sou mais um que perdeu o emprego. 
+      </p>
+
+      <p>
+        Devido a isso, resolvi dar um novo rumo em minha carreira e agora quero entrar nessa área que sempre me atraiu mas nunca tive a oportunidade em trabalhar, além de algumas manutenções em códigos html. Assim pretendo me tornando um Desenvolvedor Front-end.
+      </p>
+
+      <p>
+        Porque Desenvolvedor Front-end? 
+      </p>
+        
+      <p>
+        Esse é lado que o usuário acessa e interage com o site, e com minha experiência em design acredito que esse seja o melhor caminho para começar essa jornada. 
+      </p>
+
+      <p>
+        No momento sou apenas um estudante fazendo os primeiros códigos. Sei um pouco de HTML, CSS, Javascript mas bastante esforçado e aprendo rápido.
+      </p>
+
+      <p>
+        Espero um dia trabalhar em uma grande empresa e ter um bom salário.
+      </p>
+    </section>
+    <section class="portfolio container" id="portfolio">
       <h2>Portfólio</h2>
-      <figure>
-        <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
-        <figcaption>eCommerce</figcaption>
-      </figure>
-      <figure>
-        <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
-        <figcaption>Mobile</figcaption>
-      </figure>
-      <figure>
-        <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
-        <figcaption>Web design</figcaption>
-      </figure>
-      <figure>
-        <img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos pessoais">
-        <figcaption>Projetos pessoais</figcaption>
-      </figure>
+
+      <div class="grid">
+        <figure>
+          <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
+          <figcaption>Design Gráfico</figcaption>
+        </figure>
+        <figure>
+          <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
+          <figcaption>Mobile</figcaption>
+        </figure>
+        <figure>
+          <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
+          <figcaption>Web design</figcaption>
+        </figure>
+        <figure>
+          <img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos pessoais">
+          <figcaption>Projetos pessoais</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="contato container" id="contato">
+      <h2>Contato</h2>
+      <div class="icons">
+        <a target="_blank" href="https://ricardo-mariano.github.io/imerssaocss/#">
+          <i class="fab fa-github"></i> 
+        </a> 
+        <a target="_blank" href="https://www.linkedin.com/in/ricardomariano/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:ricardo.f.mariano@hotmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
     </section>
 </body>
 </html>
